@@ -1,11 +1,14 @@
-import { StatusBar } from 'expo-status-bar';
+import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import {Link} from 'expo-router';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Text style={styles.title}>Vamo meu timão</Text>
+      <Link href='/page1'>Ir para página 1</Link>
+      <Link href='/page2'>Ir para página 2</Link>
+      <Link href='/page3'>Ir para página 3</Link>
     </View>
   );
 }
@@ -17,4 +20,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  title:{
+    fontSize:28,
+  }
 });
