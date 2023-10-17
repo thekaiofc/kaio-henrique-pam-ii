@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "494111049952",
+    "firebase_url": "https://appbasededados-default-rtdb.firebaseio.com",
+    "project_id": "appbasededados",
+    "storage_bucket": "appbasededados.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494111049952:android:61f39cb8f2ad0f97252885",
+        "android_client_info": {
+          "package_name": "com.example.appbasededados"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo3ld8ICGWokmzrnBRyz8SvBOpy4iHyLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
